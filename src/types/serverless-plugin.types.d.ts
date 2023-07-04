@@ -131,7 +131,7 @@ export interface CustomHttpApiEvent extends HttpApiEvent {
   queryStringParameterType?: string;
   operationId?: string;
   security?: MethodSecurity[];
-  documentation: HttpResponses;
+  documentation?: HttpResponses;
 }
 
 export interface HttpResponses {

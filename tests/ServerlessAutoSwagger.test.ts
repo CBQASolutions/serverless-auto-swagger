@@ -157,7 +157,7 @@ describe('ServerlessAutoSwagger', () => {
                 // response with description and response body
                 200: {
                   description: 'this went well',
-                  requestBody: 'helloPostResponse',
+                  bodyType: 'helloPostResponse',
                 },
                 // response with just a description
                 400: {
