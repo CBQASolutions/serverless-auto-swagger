@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.1.4](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.3...v3.1.4) (2023-07-05)
+
+### Bug Fixes
+
+- interface writing ([523e89b](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/523e89b98c58724ab2ecc84b734f0916185da2eb))
+- lowercase validation ([9a313c5](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/9a313c52da4d295ccb3ec3faedf9edfc9f0b99b1))
+- registry ([b7c4d59](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/b7c4d59d670d39a4b53428973df9734e0695752a))
+
 ### [3.1.3](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.1...v3.1.3) (2023-07-05)
 
 ### Bug Fixes
