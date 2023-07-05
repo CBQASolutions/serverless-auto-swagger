@@ -185,7 +185,7 @@ export default class ServerlessAutoSwagger {
     if (!fileName) {
       throw new Error(`Invalid file path: ${filePath}`);
     }
-    const isResponseFile = fileName.includes('response');
+    const isResponseFile = fileName.toLowerCase().includes('response');
     if (isResponseFile) {
       try {
         const interfaceName = fileName.split('.')[0];
@@ -237,7 +237,7 @@ export default class ServerlessAutoSwagger {
     this.log.notice('Creating Swagger file...');
 
     // TODO enable user to specify swagger file path. also needs to update the swagger json endpoint.
-    const packagePath = dirname(require.resolve('cbqa-serverless-auto-swagger/package.json'));
+    const packagePath = dirname(require.resolve('@jairvelazquezz/cbqa-serverless-auto-swagger/package.json'));
     const resourcesPath = `${packagePath}/dist/resources`;
     await copy(resourcesPath, './swagger');
 

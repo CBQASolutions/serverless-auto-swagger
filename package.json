@@ -6,7 +6,7 @@
   "homepage": "https://github.com/CBQASolutions/cbqa-serverless-backend-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CBQASolutions/cbqa-serverless-backend-template"
+    "url": "https://github.com/CBQASolutions/cbqa-serverless-backend-template.git"
   },
   "scripts": {
     "start": "npm run build:watch",
@@ -67,5 +67,8 @@
       "prettier --write"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
