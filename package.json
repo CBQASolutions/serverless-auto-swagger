@@ -1,6 +1,6 @@
 {
   "name": "cbqa-serverless-auto-swagger",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "description": "Automatically generate a swagger file from your Serverless Framework config file with wrapper for cbqa projects",
   "main": "dist/index.js",
   "homepage": "https://github.com/CBQASolutions/cbqa-serverless-backend-template",
