@@ -180,32 +180,37 @@ export default class ServerlessAutoSwagger {
   };
 
   writeWrapperIfResponse = async (filePath: string) => {
-    let fileData = await readFileSync(filePath, 'utf8');
-    const fileName = filePath.split('/').pop();
-    if (!fileName) {
-      throw new Error(`Invalid file path: ${filePath}`);
-    }
-    const isResponseFile = fileName.toLowerCase().includes('response');
-    if (isResponseFile) {
-      try {
+    try {
+      let fileData = await readFileSync(filePath, 'utf8');
+      const fileName = filePath.split('/').pop();
+
+      if (!fileName) {
+        throw new Error(`Invalid file path: ${filePath}`);
+      }
+
+      const isResponseFile = fileName.includes('Response');
+
+      if (isResponseFile) {
         const interfaceName = fileName.split('.')[0];
-        const newInterfaceName = `${interfaceName}Response`;
-        const newInterface = `
-  export interface ${newInterfaceName} {
-    ${interfaceName.toLowerCase()}: ${interfaceName};
+        const entityName = interfaceName.replace('Response', '');
+
+        const responseInterface = `
+  export interface ${interfaceName} {
+    ${entityName.toLowerCase()}: I${entityName};
     code: number;
     message: string;
   }
   `;
 
-        const modifiedFileData = fileData + newInterface;
+        const modifiedFileData = fileData + responseInterface;
         await writeFile(filePath, modifiedFileData);
         fileData = await readFileSync(filePath, 'utf8');
-      } catch (error) {
-        throw new Error(`Couldn't read or write file: ${filePath}`);
       }
+
+      return fileData;
+    } catch (error) {
+      throw new Error(`Couldn't read or write file: ${filePath}`);
     }
-    return fileData;
   };
 
   generateSecurity = (): void => {
