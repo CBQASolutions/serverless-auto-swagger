@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.1.1](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.0...v3.1.1) (2023-07-05)
+
+## [3.1.0](https://github.com/SamWSoftware/serverless-auto-swagger/compare/v2.12.0...v3.1.0) (2023-07-05)
+
+### Features
+
+- adding wrapper for responses ([e09db28](https://github.com/SamWSoftware/serverless-auto-swagger/commit/e09db28f239cea0b57907e42bb1ace9d2ea53f0e))
+- using customResponsedocumentation ([5a33ccc](https://github.com/SamWSoftware/serverless-auto-swagger/commit/5a33ccc40904a6ba54b0985286308a06c8d09e38))
+- using requestBody instead of bodyType ([38ad92e](https://github.com/SamWSoftware/serverless-auto-swagger/commit/38ad92e1259ae1690f9a3ef80a5c4c2cbab00cfe))
+
+### Bug Fixes
+
+- documentation as optional ([ff76b11](https://github.com/SamWSoftware/serverless-auto-swagger/commit/ff76b1111c566a197984290ee3905a246fd0398d))
+- vulnerabilities ([86317f4](https://github.com/SamWSoftware/serverless-auto-swagger/commit/86317f4d2e4f65ffbe989ed5335ad239352af826))
+
 ## [2.12.0](https://github.com/SamWSoftware/serverless-auto-swagger/compare/v2.11.0...v2.12.0) (2022-12-02)
 
 ### Features
