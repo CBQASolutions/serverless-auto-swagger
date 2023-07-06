@@ -10,7 +10,8 @@
       "type": "string"
     },
     "documentation": {
-      "type": "string"
+      "nullable": true,
+      "type": "object"
     },
     "summary": {
       "type": "string"
