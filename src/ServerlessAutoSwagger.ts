@@ -203,8 +203,7 @@ export default class ServerlessAutoSwagger {
   `;
 
         const modifiedFileData = fileData + responseInterface;
-        await writeFile(filePath, modifiedFileData);
-        fileData = await readFileSync(filePath, 'utf8');
+        fileData = modifiedFileData;
       }
 
       return fileData;
