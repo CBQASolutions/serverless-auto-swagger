@@ -3,6 +3,15 @@
     "requestBody": {
       "type": "string"
     },
+    "bodyType": {
+      "type": "string"
+    },
+    "responseType": {
+      "type": "string"
+    },
+    "documentation": {
+      "type": "string"
+    },
     "summary": {
       "type": "string"
     },
