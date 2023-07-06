@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.1.12](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.11...v3.1.12) (2023-07-06)
+
+### Bug Fixes
+
+- documentation it is an object ([1851714](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/18517146da1498c86567ab3fee1d86a24230802b))
+
 ### [3.1.11](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.10...v3.1.11) (2023-07-06)
 
 ### Bug Fixes
