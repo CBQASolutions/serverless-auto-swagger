@@ -1,7 +1,17 @@
 {
   "properties": {
+    "requestBody": {
+      "type": "string"
+    },
     "bodyType": {
       "type": "string"
+    },
+    "responseType": {
+      "type": "string"
+    },
+    "documentation": {
+      "nullable": true,
+      "type": "object"
     },
     "summary": {
       "type": "string"

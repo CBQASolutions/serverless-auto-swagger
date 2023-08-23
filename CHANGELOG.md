@@ -2,13 +2,70 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [2.12.4](https://github.com/SamWSoftware/serverless-auto-swagger/compare/v2.12.3...v2.12.4) (2023-08-23)
+### [3.1.12](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.11...v3.1.12) (2023-07-06)
 
-### [2.12.3](https://github.com/SamWSoftware/serverless-auto-swagger/compare/v2.12.0...v2.12.3) (2023-08-23)
+### Bug Fixes
 
-### [2.12.2](https://github.com/SamWSoftware/serverless-auto-swagger/compare/v2.12.0...v2.12.2) (2023-08-23)
+- documentation it is an object ([1851714](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/18517146da1498c86567ab3fee1d86a24230802b))
 
-### [2.12.1](https://github.com/SamWSoftware/serverless-auto-swagger/compare/v2.12.0...v2.12.1) (2023-08-23)
+### [3.1.11](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.10...v3.1.11) (2023-07-06)
+
+### Bug Fixes
+
+- adding supported properties ([23bf378](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/23bf3783201d52690229b47d2c261c2bf477fa8f))
+
+### [3.1.10](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.9...v3.1.10) (2023-07-06)
+
+### Bug Fixes
+
+- no need to rewrite file ([f5061b8](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/f5061b8096984a80c2a336d9aa933eb3bbf3f0cc))
+
+### [3.1.9](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.8...v3.1.9) (2023-07-06)
+
+### [3.1.8](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.7...v3.1.8) (2023-07-06)
+
+### [3.1.7](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.6...v3.1.7) (2023-07-06)
+
+### [3.1.6](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.5...v3.1.6) (2023-07-05)
+
+### [3.1.5](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.4...v3.1.5) (2023-07-05)
+
+### [3.1.4](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.3...v3.1.4) (2023-07-05)
+
+### Bug Fixes
+
+- interface writing ([523e89b](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/523e89b98c58724ab2ecc84b734f0916185da2eb))
+- lowercase validation ([9a313c5](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/9a313c52da4d295ccb3ec3faedf9edfc9f0b99b1))
+- registry ([b7c4d59](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/b7c4d59d670d39a4b53428973df9734e0695752a))
+
+### [3.1.3](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.1...v3.1.3) (2023-07-05)
+
+### Bug Fixes
+
+- build ([cacb4a4](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/cacb4a4effde5eadc7dd80ea401db1888c8a4717))
+- description ([5f007ef](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/5f007efd3bbfb5654ec1b9f880a62ef2854e1c0f))
+
+### [3.1.2](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.1...v3.1.2) (2023-07-05)
+
+### Bug Fixes
+
+- build ([cacb4a4](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/cacb4a4effde5eadc7dd80ea401db1888c8a4717))
+- description ([5f007ef](https://github.com/CBQASolutions/cbqa-serverless-backend-template/commit/5f007efd3bbfb5654ec1b9f880a62ef2854e1c0f))
+
+### [3.1.1](https://github.com/CBQASolutions/cbqa-serverless-backend-template/compare/v3.1.0...v3.1.1) (2023-07-05)
+
+## [3.1.0](https://github.com/SamWSoftware/serverless-auto-swagger/compare/v2.12.0...v3.1.0) (2023-07-05)
+
+### Features
+
+- adding wrapper for responses ([e09db28](https://github.com/SamWSoftware/serverless-auto-swagger/commit/e09db28f239cea0b57907e42bb1ace9d2ea53f0e))
+- using customResponsedocumentation ([5a33ccc](https://github.com/SamWSoftware/serverless-auto-swagger/commit/5a33ccc40904a6ba54b0985286308a06c8d09e38))
+- using requestBody instead of bodyType ([38ad92e](https://github.com/SamWSoftware/serverless-auto-swagger/commit/38ad92e1259ae1690f9a3ef80a5c4c2cbab00cfe))
+
+### Bug Fixes
+
+- documentation as optional ([ff76b11](https://github.com/SamWSoftware/serverless-auto-swagger/commit/ff76b1111c566a197984290ee3905a246fd0398d))
+- vulnerabilities ([86317f4](https://github.com/SamWSoftware/serverless-auto-swagger/commit/86317f4d2e4f65ffbe989ed5335ad239352af826))
 
 ## [2.12.0](https://github.com/SamWSoftware/serverless-auto-swagger/compare/v2.11.0...v2.12.0) (2022-12-02)
 
